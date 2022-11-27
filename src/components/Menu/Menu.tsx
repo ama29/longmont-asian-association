@@ -10,7 +10,7 @@ type MenuProps = {
 export const BurgerMenu = ({ pageWrapId, outerContainerId }: MenuProps) => {
   return (
       <Menu>
-        <a id="home" className="menu-item" href="/">Home</a>
+        <a id="home" className="menu-item" href="/App.tsx">Home</a>
         <a id="about" className="menu-item" href="/Components/About/About.tsx">About</a>
         <a id="contact" className="menu-item" href="/contact">Contact</a>
       </Menu>
