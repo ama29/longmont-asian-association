@@ -21,7 +21,7 @@ const App = () => {
         />
         <div className="header">
           <h1>
-            <img src={logo} className="logo" alt="APAL logo" />
+            <img src={logo} className="logo" alt="logo" />
             Asian Pacific Association of Longmont
           </h1>
         </div>
