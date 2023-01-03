@@ -15,7 +15,6 @@ export const BurgerMenu = ({ pageWrapId, outerContainerId }: MenuProps) => {
       <a id="home" className="menu-item" href="/pages/home">Home</a>
       <a id="about" className="menu-item" href="/pages/about">
         About
-        {aboutOpen ? "placeholder open" : "placeholder closed"}
       </a>
       <a id="programs" className="menu-item" href="/pages/programs">Programs</a>
       <a id="events" className="menu-item" href="/pages/events">Events</a>
