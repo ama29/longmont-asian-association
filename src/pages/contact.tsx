@@ -1,7 +1,6 @@
 import React from "react";
-import "./Home.css";
 
-export const Home = () => {
+export const Contact = () => {
   return (
     <p>
       The Asian-Pacific Association of Longmont (A-PAL) is a 501(c)(3)
