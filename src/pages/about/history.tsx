@@ -1,6 +1,6 @@
 import React from "react";
 
-export const About = () => {
+const About = () => {
   return (
     <p>
       The Asian-Pacific Association of Longmont (A-PAL) is a 501(c)(3)
@@ -15,3 +15,5 @@ export const About = () => {
     </p>
   );
 };
+
+export default About;
