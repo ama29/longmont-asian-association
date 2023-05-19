@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import Dropdown, { SubMenu } from './Dropdown';
 import { Link } from 'react-router-dom';
+import { useOnHoverOutside } from "../hooks/useOnHoverOutside";
 
 export type MenuItem = {
     title: string;
@@ -10,44 +11,32 @@ export type MenuItem = {
 
 const MenuItems = ({ items, depthLevel }: { items: MenuItem, depthLevel: number }) => {
     const [dropdown, setDropdown] = useState(false);
+    const ref = useRef<HTMLLIElement>(null);
 
-    let ref = useRef<HTMLLIElement>(null);
-
-    useEffect(() => {
-        const handler = (event: TouchEvent | MouseEvent) => {
-            if (dropdown && ref.current && !ref.current.contains(event.target as Node)) {
-                setDropdown(false);
-            }
-        };
-        document.addEventListener("mousedown", handler);
-        document.addEventListener("touchstart", handler);
-        return () => {
-            document.removeEventListener('mousedown', handler);
-            document.removeEventListener('touchstart', handler);
-        };
-    }, [dropdown])
-    const onMouseEnter = () => {
-        window.innerWidth > 960 && setDropdown(true);
-    };
-    const onMouseLeave = () => {
-        window.innerWidth > 960 && setDropdown(false);
+    const closeHoverMenu = () => {
+        dropdown && setDropdown(false);
     }
+    
     const closeDropdown = () => {
         dropdown && setDropdown(false);
     }
+
+    useOnHoverOutside (ref, closeHoverMenu);
+
     return (
-        <li className="menu-items" ref={ref} onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave} onClick={closeDropdown}>
+        <li className="menu-items" ref={ref} onClick={closeDropdown}>
             {items.url && items.submenu ? (
                 <>
                     <button
                         type="button"
                         aria-haspopup="menu"
                         aria-expanded={dropdown ? "true" : "false"}
-                        onClick={() => setDropdown((prev) => !prev)}>
+                        onClick={() => setDropdown((prev) => !prev)}
+                        onMouseOver={() => setDropdown(true)}>
                         {items.title}{' '}
                         {depthLevel > 0 ? <span> &raquo;</span> : <span className="arrow" />}
                     </button>
-                    <Dropdown submenus={items.submenu} dropdown={dropdown} depthLevel={depthLevel} />
+                    {dropdown && <Dropdown submenus={items.submenu} dropdown={dropdown} depthLevel={depthLevel} />}
                 </>
             ) : (
                 <Link to={items.url}>{items.title}</Link>

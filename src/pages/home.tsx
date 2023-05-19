@@ -1,22 +1,52 @@
+import "../stylesheets/Home.css";
 import React from "react";
+import SimpleImageSlider from "react-simple-image-slider";
+const images = [
+  { url: require("../images/events/lion-dance-1.jpg") },
+  { url: require("../images/events/drums-1.jpg") },
+  { url: require("../images/events/dance-1.jpg") },
+  { url: require("../images/events/qipao-show-1.jpg") },
+  { url: require("../images/events/calliagraphy-1.jpg") }
+]
 
 const Home = () => {
   return (
-    <div>
-      <p>
-        The Asian-Pacific Association of Longmont (A-PAL) is a 501(c)(3)
-        organization, founded in 2010. A-PAL’s mission is to promote diversity and
-        bridge cultural gaps through the development and hosting of cultural,
-        educational, and artistic projects and events, as well as by encouraging
-        active participation in city and school district initiatives and
-        activities. A-PAL also urges greater utilization of programs and services
-        offered by public institutions. Additionally, A-PAL provides referral
-        assistance to those who have the need or are unfamiliar with available
-        resources.
-      </p>
-      <p>
-        We differ from similar organizations within Colorado in that we work in collaboration with a variety of groups, from individuals to governmental agencies. Our partners include the City of Longmont, St. Vrain Valley Schools, Silver Creek High School’s Leadership Academy, Front Range Community College, the Boulder Asian Pacific Alliance, numerous private businesses, local nonprofits, and individual community members. One of our most significant partnerships involves the Silver Creek Leadership Academy at Silver Creek High School, where we mentor students in developing leadership skills and embracing Chinese culture. Our commitment to promoting multiculturalism within the community engages people from a variety of ages and backgrounds in Longmont and beyond.
-      </p>
+    <div className="home-container">
+      <div className="home-activity-subcontainer">
+        <div className="home-section-title">
+          Recent Activity
+        </div>
+        <div className="home-subsection-title">
+          <a href="/past-events"> See more past events
+            <span> &#8594;</span>
+          </a>
+        </div>
+        <div className="home-activity-subcontainer-text">
+          Our annual Chinese Lunar New Year celebration happened on February 4th, 2023. This was a free and public event at Silver Creek High School featuring a lion dance performance, qipao showcase,
+          kung-fu demonstration, music performances, food sampling, calligraphy, origami, chopsticks, and other activities catering to both children and adults.
+        </div>
+      </div>
+      <div className="home-activity-subcontainer-image-slider">
+        <SimpleImageSlider
+          width={650}
+          height={400}
+          images={images}
+          showBullets={true}
+          showNavs={true}
+          autoPlay={true}
+          autoPlayDelay={4}
+        />
+      </div>
+      <div className="break">
+      </div>
+      <div className="home-about-subcontainer">
+        <div className="home-about-title">
+          About Us
+        </div>
+        <div className="home-about-text-subcontainer">
+          The Asian-Pacific Association of Longmont (A-PAL) is a 501(c)(3) nonprofit organization dedicated to supporting Longmont’s multicultural initiative by promoting diversity and bridging cultural gaps in the community. A-PAL not only seeks to support cultural and artistic projects, but also encourages active participation in city programs, especially in the area of education. By working to ensure that Longmont’s Asian community members utilize existing public programs and services, A-PAL seeks to develop ties within other branches of the community. A-PAL also provides referral assistance to those who have specific needs or are unfamiliar with available resources.
+        </div>
+      </div>
     </div>
   );
 };

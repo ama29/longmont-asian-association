@@ -18,4 +18,4 @@ const Dropdown = ({submenus, dropdown, depthLevel} : {submenus: SubMenu[], dropd
     );
 };
 
-export default Dropdown
+export default Dropdown;

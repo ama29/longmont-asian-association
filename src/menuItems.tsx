@@ -10,8 +10,8 @@ export const menuItems = [
       url: "/about",
       submenu: [
         {
-          title: 'History',
-          url: 'history',
+          title: 'Initiatives',
+          url: 'initiatives',
         },
         {
           title: 'Board of Directors',
@@ -50,8 +50,8 @@ export const menuItems = [
       url: "/events",
       submenu: [
         {
-          title: 'Chinese New Year 2023',
-          url: 'chinese-new-year-2023',
+          title: 'Chinese New Year',
+          url: 'chinese-new-year',
         },
         {
           title: 'Inclusive Communities',

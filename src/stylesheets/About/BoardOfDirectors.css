@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css?family=Lora');
+
+.bod-container {
+  display: flex;
+  flex-direction: horizontal;
+  flex-wrap: wrap;
+  row-gap: 2vw;
+  column-gap: 5vw;
+}
+.bod-flexbox-title {
+  flex:100%;
+  text-align: center;
+  font-size: 36px;
+  font-family: 'Lora';
+  font-weight: bold;
+  color: #8b0000;
+  margin-top: 3vw;
+}
+.bod-left-flexbox {
+  width: 100%;
+  display: flex;
+  margin-top: 30px;
+  margin-left: 200px;
+}
+.bod-right-flexbox {
+  width: 100%;
+  display: flex;
+  margin-top: 30px;
+}
+
+.break {
+  flex-basis: 100%;
+  height: 0;
+}
+.bod-title {
+  font-family: 'Lora';
+  font-size: 24px;
+  color: #8b0000;
+  font-weight: 600;
+}
+.bod-name {
+  text-align: center;
+  font-family: 'Lora';
+  font-weight: bolder;
+  font-size: x-large;
+  padding-top: 10px;
+}
+
+.bod-image-left {
+  object-fit: cover;
+  border-radius: 50%;
+  width: 12vw;
+  height: 12vw;
+  display: block;
+  margin-left: auto;
+  margin-right: 30px;
+}
+
+.bod-image-right {
+  object-fit: cover;
+  border-radius: 50%;
+  width: 12vw;
+  height: 12vw;
+  display: block;
+  margin-left: auto;
+  margin-right: 200px;
+}
+
+.bod-text-left {
+  font-size: 16px;
+  text-align: justify;
+  font-family: 'Lora';
+  width: 70%;
+  line-height: 175%;
+}
+
+.bod-text-right {
+  font-size: 16px;
+  text-align: justify;
+  font-family: 'Lora';
+  width: 90%;
+  line-height: 175%;
+}
+
+.bod-left-profile {
+  width: 90%;
+  align-content: justify;
+}
+
+.bod-right-profile {
+  width: 90%;
+  align-content: justify;
+  margin-left: 410px;
+}
+
+.bod-mid-flexbox {
+  width: 100%;
+  display: flex;
+  margin-top: 30px;
+}
+
+.bod-mid-profile {
+  width: 100%;
+  align-content: justify;
+}
+
+.bod-image-mid {
+  object-fit: cover;
+  border-radius: 50%;
+  width: 12vw;
+  height: 12vw;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+}
+
+.bod-title-mid {
+  font-family: 'Lora';
+  font-size: 24px;
+  color: #8b0000;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 50px;
+}

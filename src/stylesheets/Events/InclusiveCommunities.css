@@ -1,0 +1,47 @@
+.inclusive-communities-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.inclusive-communities-title {
+    width: 100%;
+    flex:100%;
+    text-align: center;
+    font-size: 36px;
+    font-family: 'Lora';
+    font-weight: bold;
+    color: #8b0000;
+    margin-top: 3vw;
+    margin-bottom: 1vw;
+  }
+  .inclusive-communities-video
+  {
+    margin: auto;
+    width: 40%;
+    padding: 20px;
+  }
+  .inclusive-communities-text
+  {
+      text-align: center;
+      font-size: 16px;
+      line-height: 150%;
+      margin-left: 25vw;
+      margin-right: 25vw;
+      margin-bottom: 5vw;
+  }
+
+  .video-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+    align-items: center;
+    z-index: 1;
+  }
+  
+  .video-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+  }

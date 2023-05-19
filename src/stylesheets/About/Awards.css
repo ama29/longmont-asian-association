@@ -1,0 +1,59 @@
+.awards-section-title
+{
+  text-align: center;
+  font-size: 36px;
+  margin-top: 3vw;
+  color: #8b0000;
+  font-weight: 600;
+}
+
+.awards-subsection
+{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 5vw;
+}
+
+.awards-subsection-images
+{
+  width: 100%;
+  display: flex;
+}
+
+.awards-subsection-title
+{
+  margin-bottom: 5vw;
+  width: 100%;
+  font-size: 18px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.awards-image-section-1
+{
+  margin-left: 10vw;
+  text-align: center;
+  width: 40%;
+}
+
+.awards-image-section-2
+{
+  margin-right: 10vw;
+  text-align: center;
+  width: 40%;
+}
+
+.awards-image-section-3
+{
+  margin-left: 500px;
+  text-align: center;
+  width: 40%;
+}
+
+.figcaption
+{
+  font-style: italic;
+  font-size: 12px;
+}
+
+
