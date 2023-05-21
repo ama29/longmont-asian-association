@@ -1,0 +1,52 @@
+.events-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.events-title {
+    width: 100%;
+    flex:100%;
+    text-align: center;
+    font-size: 36px;
+    font-family: 'Lora';
+    font-weight: bold;
+    color: #8b0000;
+    margin-top: 3vw;
+    margin-bottom: 1vw;
+}
+.events-subcontainer-title
+{
+    width: 100%;
+    flex:100%;
+    font-size: 24px;
+    font-family: 'Lora';
+    color: #8b0000;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    margin-left: 2vw;
+}
+.events-text
+{
+    text-align: center;
+    font-size: 16px;
+    line-height: 150%;
+    margin-left: 25vw;
+    margin-right: 25vw;
+    margin-bottom: 5vw;
+}
+.cny-2016-image
+{
+    width: 30vw;
+    margin: 5px;
+}
+.cny-2018-photos-link
+{
+    font-size: 18px;
+    line-height: 150%;
+    margin-left: 2vw;
+    margin-bottom: 2vw;
+}
+.link
+{
+    margin-left: 5px;
+    margin-right: 5px;
+}

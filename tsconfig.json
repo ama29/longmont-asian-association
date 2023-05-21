@@ -29,5 +29,5 @@
   "include": [
     "types/**/*.d.ts",
     "src/**/*"
-  ],
+, "setupTests.ts"  ],
 }

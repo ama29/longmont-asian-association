@@ -1,5 +1,6 @@
 import React from "react";
 import "../../stylesheets/Events/ChineseNewYear.css";
+import Zodiac from "../../images/events/zodiac-2023.png";
 
 const ChineseNewYear = () => {
   return (
@@ -7,6 +8,7 @@ const ChineseNewYear = () => {
       <div className="cny-title">
         Chinese New Year
       </div>
+      <img src={Zodiac} className="zodiac" alt="2023-zodiac" />
       <div className="cny-text">
         Lunar New Year is one of the most important celebrations for Chinese, Vietnamese, Korean, Singaporean, and other East and Southeastern Asian cultures.
         The holiday marks the beginning of a new year on the traditional lunar calendar. China’s Lunar New Year is known as the Spring Festival or Chūnjié (春节/春節) in Mandarin, while for example, Koreans call it Seollal (설날), and Vietnamese refer to it as Tết.

@@ -11,15 +11,21 @@
     "@testing-library/user-event": "^13.5.0",
     "@types/react-burger-menu": "^2.8.3",
     "font-awesome": "^4.7.0",
+    "gh-pages": "^5.0.0",
     "react": "^18.2.0",
     "react-burger-menu": "^3.0.8",
     "react-dom": "^18.2.0",
+    "react-grid-gallery": "^1.0.0",
+    "react-photo-gallery": "^8.0.0",
+    "react-responsive-gallery": "^3.0.3",
     "react-router-dom": "^6.4.3",
     "react-scripts": "^5.0.1",
     "react-simple-image-slider": "^2.4.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d build",
     "start": "set PORT=3000 && react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -46,5 +52,6 @@
   "devDependencies": {
     "@types/react": "^18.0.31",
     "file-loader": "^6.2.0"
-  }
+  },
+  "homepage": "https://longmontasianassociation.org"
 }

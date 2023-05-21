@@ -3,13 +3,6 @@ import "../../stylesheets/Programs/CulturalOutreach.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPaintBrush, faLanguage, faHandshakeAngle } from '@fortawesome/free-solid-svg-icons'
 
-import SimpleImageSlider from "react-simple-image-slider";
-const images = [
-  { url: require("../../images/outreach/APAL-volunteers-1.jpg") },
-  { url: require("../../images/outreach/CultrualOutreachYouthAlternative.jpg") },
-  { url: require("../../images/outreach/CulturalOutreachMentorship.jpg") }
-]
-
 const CulturalOutreach = () => {
   return (
     <div>
