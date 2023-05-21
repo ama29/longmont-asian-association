@@ -1,25 +1,33 @@
 {
   "files": {
-    "main.css": "/static/css/main.809436a2.css",
-    "main.js": "/static/js/main.82c0858d.js",
+    "main.css": "/static/css/main.fa5a3529.css",
+    "main.js": "/static/js/main.2a7a9624.js",
     "static/js/787.4038f8d1.chunk.js": "/static/js/787.4038f8d1.chunk.js",
     "static/media/APAL-volunteers-1.jpg": "/static/media/APAL-volunteers-1.c95c863e4a2f080719b2.jpg",
     "static/media/cny-2016-1.jpg": "/static/media/cny-2016-1.d23dc8166c27eeed090b.jpg",
     "static/media/ChristmasTree.png": "/static/media/ChristmasTree.bd224e386e7c9e141807.png",
+    "static/media/2019-front.jpg": "/static/media/2019-front.1190a786b8199645eeff.jpg",
     "static/media/NewChineseJournal.jpg": "/static/media/NewChineseJournal.41d642178839b7577ef7.jpg",
     "static/media/APAL-volunteers-3.jpg": "/static/media/APAL-volunteers-3.c3eccea66b54fd4b21f2.jpg",
     "static/media/2014-front.png": "/static/media/2014-front.422f231bef888e723e17.png",
+    "static/media/2021-front.png": "/static/media/2021-front.cfbbd23c79d50ad8f1eb.png",
     "static/media/A-PAL-Volunteers-2.jpg": "/static/media/A-PAL-Volunteers-2.bf13363537b0e85efa08.jpg",
+    "static/media/2023-back.png": "/static/media/2023-back.7a1b54e0483dbd058724.png",
+    "static/media/2023-front.png": "/static/media/2023-front.33aabff759196f6a5090.png",
     "static/media/2018-front.png": "/static/media/2018-front.5c2f66bd6fce95d8b19d.png",
     "static/media/2014-back.png": "/static/media/2014-back.3e4bb867afe6e4ff7a31.png",
     "static/media/cny-2018-8.jpg": "/static/media/cny-2018-8.6c03ceb85a423fd05060.jpg",
     "static/media/2018-back.png": "/static/media/2018-back.0bddf64f815f7bebc31d.png",
+    "static/media/qipao2.jpeg": "/static/media/qipao2.55e60034a60d4d73b232.jpeg",
     "static/media/cny-2017-back.jpg": "/static/media/cny-2017-back.e41f9a5795c2ebc1e48b.jpg",
+    "static/media/2019-poster-back.jpg": "/static/media/2019-poster-back.8133a8e76c0dea2c704f.jpg",
     "static/media/drums-1.jpg": "/static/media/drums-1.32d01f8751965922fee2.jpg",
     "static/media/lion-dance-1.jpg": "/static/media/lion-dance-1.2ffd8db17336186d1c3a.jpg",
+    "static/media/2019-poster-front.jpg": "/static/media/2019-poster-front.eee66d157794d82d04c5.jpg",
     "static/media/cny-2018-5.jpg": "/static/media/cny-2018-5.70c9fdc8408dfc5f8c59.jpg",
     "static/media/calliagraphy-1.jpg": "/static/media/calliagraphy-1.644b8668502710f5445b.jpg",
     "static/media/2017-front.jpg": "/static/media/2017-front.2ce0a26882b0df6bcd08.jpg",
+    "static/media/2020-front.jpg": "/static/media/2020-front.c6610f7a0fd9f16baab0.jpg",
     "static/media/Awards7.jpg": "/static/media/Awards7.981465ca2756b1e948c5.jpg",
     "static/media/qipao-show-1.jpg": "/static/media/qipao-show-1.fdc97a9008e420dadcd8.jpg",
     "static/media/dance-1.jpg": "/static/media/dance-1.755e6ad1b8581aeaa31a.jpg",
@@ -86,12 +94,12 @@
     "static/media/Awards3.jpg": "/static/media/Awards3.2fc6e92836968fa29710.jpg",
     "static/media/svvsd.png": "/static/media/svvsd.9e73f570ad9932bf0cb7.png",
     "index.html": "/index.html",
-    "main.809436a2.css.map": "/static/css/main.809436a2.css.map",
-    "main.82c0858d.js.map": "/static/js/main.82c0858d.js.map",
+    "main.fa5a3529.css.map": "/static/css/main.fa5a3529.css.map",
+    "main.2a7a9624.js.map": "/static/js/main.2a7a9624.js.map",
     "787.4038f8d1.chunk.js.map": "/static/js/787.4038f8d1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.809436a2.css",
-    "static/js/main.82c0858d.js"
+    "static/css/main.fa5a3529.css",
+    "static/js/main.2a7a9624.js"
   ]
 }
