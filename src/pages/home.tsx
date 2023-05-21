@@ -2,11 +2,11 @@ import "../stylesheets/Home.css";
 import React from "react";
 import SimpleImageSlider from "react-simple-image-slider";
 const images = [
-  { url: require("../images/events/lion-dance-1.jpg") },
-  { url: require("../images/events/drums-1.jpg") },
-  { url: require("../images/events/dance-1.jpg") },
-  { url: require("../images/events/qipao-show-1.jpg") },
-  { url: require("../images/events/calliagraphy-1.jpg") }
+  { url: require("../images/events/gallery/2023/lion-dance-1.jpg") },
+  { url: require("../images/events/gallery/2023/drums-1.jpg") },
+  { url: require("../images/events/gallery/2023/dance-1.jpg") },
+  { url: require("../images/events/gallery/2023/qipao-show-1.jpg") },
+  { url: require("../images/events/gallery/2023/calliagraphy-1.jpg") }
 ]
 
 const Home = () => {

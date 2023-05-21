@@ -13,6 +13,9 @@
     margin-top: 3vw;
     margin-bottom: 1vw;
 }
+.events-subcontainer {
+    width: 100%;
+}
 .events-subcontainer-title
 {
     width: 100%;
@@ -33,17 +36,23 @@
     margin-right: 25vw;
     margin-bottom: 5vw;
 }
-.cny-2016-image
+.cny-image
 {
     width: 30vw;
     margin: 5px;
 }
-.cny-2018-photos-link
+.cny-image-vertical
+{
+    width: 18vw;
+    margin: 5px;
+}
+.cny-past-events-text
 {
     font-size: 18px;
     line-height: 150%;
     margin-left: 2vw;
     margin-bottom: 2vw;
+    text-align: left;
 }
 .link
 {

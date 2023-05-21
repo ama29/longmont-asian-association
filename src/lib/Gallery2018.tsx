@@ -27,13 +27,13 @@ const images = [
     },
     {
         src: require("../images/events/gallery/2018/cny-2018-4.jpg"),
-        width: 4,
-        height: 3
+        width: 3,
+        height: 2
     },
     {
         src: require("../images/events/gallery/2018/cny-2018-5.jpg"),
         width: 3,
-        height: 2
+        height: 4
     },
     {
         src: require("../images/events/gallery/2018/cny-2018-6.jpg"),
