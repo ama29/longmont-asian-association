@@ -42,7 +42,7 @@ const images = [
     },
 ]
 
-const Gallery2018 = () => {
+const Gallery2023 = () => {
     return (
         <div>
             <Gallery photos={images}/>
@@ -50,4 +50,4 @@ const Gallery2018 = () => {
     );
 };
 
-export default Gallery2018;
+export default Gallery2023;
