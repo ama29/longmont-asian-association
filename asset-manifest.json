@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.fa5a3529.css",
-    "main.js": "/static/js/main.896b6eb6.js",
+    "main.js": "/static/js/main.0b59c84f.js",
     "static/js/787.4038f8d1.chunk.js": "/static/js/787.4038f8d1.chunk.js",
     "static/media/APAL-volunteers-1.jpg": "/static/media/APAL-volunteers-1.c95c863e4a2f080719b2.jpg",
     "static/media/cny-2016-1.jpg": "/static/media/cny-2016-1.d23dc8166c27eeed090b.jpg",
@@ -95,11 +95,11 @@
     "static/media/svvsd.png": "/static/media/svvsd.9e73f570ad9932bf0cb7.png",
     "index.html": "/index.html",
     "main.fa5a3529.css.map": "/static/css/main.fa5a3529.css.map",
-    "main.896b6eb6.js.map": "/static/js/main.896b6eb6.js.map",
+    "main.0b59c84f.js.map": "/static/js/main.0b59c84f.js.map",
     "787.4038f8d1.chunk.js.map": "/static/js/787.4038f8d1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fa5a3529.css",
-    "static/js/main.896b6eb6.js"
+    "static/js/main.0b59c84f.js"
   ]
 }
