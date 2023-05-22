@@ -17,7 +17,7 @@ const Home = () => {
           Recent Activity
         </div>
         <div className="home-subsection-title">
-          <a href="/past-events"> See more past events
+          <a href="past-events"> See more past events
             <span> &#8594;</span>
           </a>
         </div>
