@@ -10,7 +10,7 @@
 .bod-flexbox-title {
   flex:100%;
   text-align: center;
-  font-size: 36px;
+  font-size: 2.5vw;
   font-family: 'Lora';
   font-weight: bold;
   color: #8b0000;
@@ -19,13 +19,15 @@
 .bod-left-flexbox {
   width: 100%;
   display: flex;
-  margin-top: 30px;
-  margin-left: 200px;
+  margin-top: 3vw;
+  margin-left: 10vw;
+  align-items: center;
 }
 .bod-right-flexbox {
   width: 100%;
   display: flex;
-  margin-top: 30px;
+  margin-top: 3vw;
+  align-items: center;
 }
 
 .break {
@@ -34,7 +36,7 @@
 }
 .bod-title {
   font-family: 'Lora';
-  font-size: 24px;
+  font-size: 1.75vw;
   color: #8b0000;
   font-weight: 600;
 }
@@ -53,7 +55,7 @@
   height: 12vw;
   display: block;
   margin-left: auto;
-  margin-right: 30px;
+  margin-right: 2.5vw;
 }
 
 .bod-image-right {
@@ -63,23 +65,23 @@
   height: 12vw;
   display: block;
   margin-left: auto;
-  margin-right: 200px;
+  margin-right: 15vw;
 }
 
 .bod-text-left {
-  font-size: 16px;
+  font-size: 1vw;
   text-align: justify;
   font-family: 'Lora';
   width: 70%;
-  line-height: 175%;
+  line-height: 150%;
 }
 
 .bod-text-right {
-  font-size: 16px;
+  font-size: 1vw;
   text-align: justify;
   font-family: 'Lora';
   width: 90%;
-  line-height: 175%;
+  line-height: 150%;
 }
 
 .bod-left-profile {
@@ -90,13 +92,13 @@
 .bod-right-profile {
   width: 90%;
   align-content: justify;
-  margin-left: 410px;
+  margin-left: 25vw;
 }
 
 .bod-mid-flexbox {
   width: 100%;
   display: flex;
-  margin-top: 30px;
+  margin-top: 2vw;
 }
 
 .bod-mid-profile {
@@ -112,14 +114,14 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 50px;
+  margin-bottom: 4vw;
 }
 
 .bod-title-mid {
   font-family: 'Lora';
-  font-size: 24px;
+  font-size: 2vw;
   color: #8b0000;
   font-weight: 600;
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 2vw;
 }
