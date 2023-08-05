@@ -50,8 +50,8 @@ export const menuItems = [
       url: "/events",
       submenu: [
         {
-          title: 'Chinese New Year',
-          url: 'chinese-new-year',
+          title: 'Lunar New Year',
+          url: 'lunar-new-year',
         },
         {
           title: 'Inclusive Communities',

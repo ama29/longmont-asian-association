@@ -14,7 +14,7 @@ const Initiatives = () => {
             Cultural Projects and Events
           </div>
           <div className="initiative-subsection-text">
-            A-PAL develops, hosts and participates in a variety of cultural and artistic projects and events including our Chinese New Year Event and the City of Longmont’s Inclusive Communities Celebration.
+            A-PAL develops, hosts and participates in a variety of cultural and artistic projects and events including our Lunar New Year Event and the City of Longmont’s Inclusive Communities Celebration.
           </div>
         </div>
         <div className="initiative-subsection">
@@ -30,7 +30,7 @@ const Initiatives = () => {
             Volunteers
           </div>
           <div className="initiative-subsection-text">
-            A-PAL has over 40 committed volunteers, and often more than 100 volunteers for special events such as our annual Chinese New Year celebration. Our volunteers also contribute to a wide variety of civic and educational projects.
+            A-PAL has over 40 committed volunteers, and often more than 100 volunteers for special events such as our annual Lunar New Year celebration. Our volunteers also contribute to a wide variety of civic and educational projects.
           </div>
         </div>
       </div>

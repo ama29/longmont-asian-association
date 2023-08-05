@@ -6,26 +6,23 @@ const CommunityService = () => {
   return (
     <div>
       <div className="service-title">
-        Community Involvement
+        Community Service
       </div>
       <div className="service-container">
         <div className="service-subcontainer">
           <div className="service-subcontainer-title">
-            City of Longmont
+            Community Involvements
           </div>
           <div className="service-subcontainer-text">
             <ul>
               <li>
-                Committee chair on the Multicultural Action Committee, City of Longmont (5x)
+                Committee chair on the Multicultural Action Committee, City of Longmont
               </li>
               <li>
                 Participated in the development and implementation of Longmont's multicultural strategic plans
               </li>
               <li>
                 Key role in Longmont's annual Inclusive Communities Celebration
-              </li>
-              <li>
-                Martin Luther King Jr. celebration guest speaker (3x)
               </li>
               <li>
                 Participation in city projects and provider of translation services
@@ -38,6 +35,20 @@ const CommunityService = () => {
               </li>
               <li>
                 Longmont Sister Cities Event
+              </li>
+              <li>
+                Longs Peak Hospital Foundation Board Member
+              </li>
+              <li>
+                Longmont Symphony Orchestra Board Member
+              </li>
+              <li>
+                Colorado Chinese Language Teacher Consortium Board Member
+              </li>
+              <li>
+                Bohua Chinese School Board Member              </li>
+              <li>
+                Martin Luther King Jr. celebration guest speaker
               </li>
               <li>
                 Other community events involving the Latino Chamber of Commerce, Cinco de Mayo, and "You Belong in Longmont" initiatives
@@ -72,7 +83,7 @@ const CommunityService = () => {
                 Silver Creek Leadership Academy (SCLA)
                 <ul>
                   <li> cultural coaching & language instruction for students preparing to go to China </li>
-                  <li> mentorship of SCLA seniors on leadership, organization, and management to organize annual Chinese New Year event </li>
+                  <li> mentorship of SCLA seniors on leadership, organization, and management to organize annual Lunar New Year event </li>
                   <li> collaboration with Silver Creek High School to start a new Chinese language class </li>
                   <li> help organize Chinese student group to visit the United States </li>
                 </ul>

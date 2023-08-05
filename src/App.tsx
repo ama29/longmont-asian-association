@@ -31,7 +31,7 @@ const App = () => {
           <Route path="cultural-outreach" element={<CulturalOutreach />} />
           <Route path="resource-referrals" element={<ResourceReferrals />} />
           <Route path="community-service" element={<CommunityService />} />
-          <Route path="chinese-new-year" element={<ChineseNewYear />} />
+          <Route path="lunar-new-year" element={<ChineseNewYear />} />
           <Route path="inclusive-communities" element={<InclusiveCommunities />} />
           <Route path="longmont-tree-lighting" element={<LongmontTreeLighting />} />
           <Route path="past-events" element={<PastEvents />} />

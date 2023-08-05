@@ -6,7 +6,7 @@ const ChineseNewYear = () => {
   return (
     <div className="cny-container">
       <div className="cny-title">
-        Chinese New Year
+        Lunar New Year
       </div>
       <img src={Zodiac} className="zodiac" alt="2023-zodiac" />
       <div className="cny-text">
@@ -16,7 +16,7 @@ const ChineseNewYear = () => {
         <br></br>
         Every year, we host a free open-to-public event at Silver Creek High School to celebrate the Lunar New Year.
         Although many performance and activities change on a year to year basis, we have a few favorites that make an annual appearance!
-        The next Chinese New Year will be on February 10, 2024.
+        The next Lunar New Year will be on February 24, 2024.
       </div>
     </div>
   );

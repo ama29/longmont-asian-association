@@ -19,9 +19,15 @@ const PastEvents = () => {
       <div className="events-title">
         Past Events
       </div>
+      <div className="cny-past-events-text">
+          For all photos, see our gallery here
+          <a href="https://www.flickr.com/photos/198201700@N02/albums" className="link">
+            here.
+          </a>
+        </div>
       <div className="events-subcontainer">
         <div className="events-subcontainer-title">
-          Chinese New Year 2023 - Year of the Rabbit
+          Lunar New Year 2023 - Year of the Rabbit
           <hr></hr>
         </div>
         <div className="cny-past-events-text">
@@ -34,30 +40,30 @@ const PastEvents = () => {
       </div>
       <div className="events-subcontainer">
         <div className="events-subcontainer-title">
-          Chinese New Year 2022 - Year of the Tiger
+          Lunar New Year 2022 - Year of the Tiger
           <hr></hr>
         </div>
         <div className="cny-past-events-text">
-          There was no Chinese New Year hosted in 2022 due to COVID concerns.
+          There was no Lunar New Year hosted in 2022 due to COVID concerns.
         </div>
       </div>
       <div className="events-subcontainer">
         <div className="events-subcontainer-title">
-          Chinese New Year 2021 - Year of the Ox
+          Lunar New Year 2021 - Year of the Ox
           <hr></hr>
         </div>
         <img src={CNY2021} className="cny-image" />
       </div>
       <div className="events-subcontainer">
         <div className="events-subcontainer-title">
-          Chinese New Year 2020 - Year of the Rat
+          Lunar New Year 2020 - Year of the Rat
           <hr></hr>
         </div>
         <img src={CNY2020} className="cny-image-vertical" />
       </div>
       <div className="events-subcontainer">
         <div className="events-subcontainer-title">
-          Chinese New Year 2019 - Year of the Pig
+          Lunar New Year 2019 - Year of the Pig
           <hr></hr>
         </div>
         <div className="2019-images-container">
@@ -68,7 +74,7 @@ const PastEvents = () => {
       </div>
       <div className="events-subcontainer">
         <div className="events-subcontainer-title">
-          Chinese New Year 2018 - Year of the Dog
+          Lunar New Year 2018 - Year of the Dog
           <hr></hr>
         </div>
         <div className="cny-past-events-text">
@@ -90,28 +96,28 @@ const PastEvents = () => {
       </div>
       <div className="events-subcontainer">
         <div className="events-subcontainer-title">
-          Chinese New Year 2017 - Year of the Rooster
+          Lunar New Year 2017 - Year of the Rooster
           <hr></hr>
         </div>
         <Gallery2017 />
       </div>
       <div className="events-subcontainer">
         <div className="events-subcontainer-title">
-          Chinese New Year 2016 - Year of the Monkey
+          Lunar New Year 2016 - Year of the Monkey
           <hr></hr>
         </div>
         <img src={CNY2016} className="cny-image" />
       </div>
       <div className="events-subcontainer">
         <div className="events-subcontainer-title">
-          Chinese New Year 2015 - Year of the Sheep
+          Lunar New Year 2015 - Year of the Sheep
           <hr></hr>
         </div>
         <Gallery2015 />
       </div>
       <div className="events-subcontainer">
         <div className="events-subcontainer-title">
-          Chinese New Year 2014 - Year of the Horse
+          Lunar New Year 2014 - Year of the Horse
           <hr></hr>
         </div>
         <Gallery2014 />

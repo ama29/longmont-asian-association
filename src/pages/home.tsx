@@ -17,12 +17,12 @@ const Home = () => {
           Recent Activity
         </div>
         <div className="home-subsection-title">
-          <a href="past-events"> See more past events
+          <a href="https://www.flickr.com/photos/svvsd/albums/72177720305882230"> See the official album here
             <span> &#8594;</span>
           </a>
         </div>
         <div className="home-activity-subcontainer-text">
-          Our annual Chinese Lunar New Year celebration happened on February 4th, 2023. This was a free and public event at Silver Creek High School featuring a lion dance performance, qipao showcase,
+          Our annual Lunar New Year celebration happened on February 4th, 2023. This was a free and public event at Silver Creek High School featuring a lion dance performance, qipao showcase,
           kung-fu demonstration, music performances, food sampling, calligraphy, origami, chopsticks, and other activities catering to both children and adults.
         </div>
       </div>
@@ -44,7 +44,14 @@ const Home = () => {
           About Us
         </div>
         <div className="home-about-text-subcontainer">
-          The Asian-Pacific Association of Longmont (A-PAL) is a 501(c)(3) nonprofit organization dedicated to supporting Longmont’s multicultural initiative by promoting diversity and bridging cultural gaps in the community. A-PAL not only seeks to support cultural and artistic projects, but also encourages active participation in city programs, especially in the area of education. By working to ensure that Longmont’s Asian community members utilize existing public programs and services, A-PAL seeks to develop ties within other branches of the community. A-PAL also provides referral assistance to those who have specific needs or are unfamiliar with available resources.
+          The Asian-Pacific Association of Longmont (A-PAL) is a non-profit organization,
+          recognized under section 501(c)(3) of the Internal Revenue Code, established in 2010.
+          The primary objective of A-PAL is to foster diversity and bridge cultural divides by
+          organizing and executing cultural, educational, and artistic projects and events.
+          Furthermore, A-PAL strives to promote active engagement in city and school district
+          initiatives and activities, as well as encourage optimal utilization of programs and
+          services provided by public institutions. A-PAL also offers referral assistance to
+          individuals who require aid or are unfamiliar with available resources.
         </div>
       </div>
     </div>
