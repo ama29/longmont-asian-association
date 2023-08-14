@@ -15,6 +15,7 @@ import Seagate from "../../images/partners/Seagate.jpg";
 import SVVSDIC from "../../images/partners/SVVSDIC.png";
 import Zometool from "../../images/partners/Zometool.jpg";
 import Eldorado from "../../images/partners/EldoradoNaturalSpringWater.jpg";
+import SCFD from "../../images/partners/SCFD.jpg";
 
 const Partners = () => {
   return (
@@ -63,7 +64,7 @@ const Partners = () => {
           </div>
           <div className="sponsor-image-section">
             <img src={Zometool} className="sponsor-image" alt="Zometool" />
-
+            <img src={SCFD} className="sponsor-image" alt="SCFD" />
           </div>
         </div>
       </div>

@@ -20,8 +20,8 @@ const PastEvents = () => {
         Past Events
       </div>
       <div className="cny-past-events-text">
-          For all photos, see our gallery here
-          <a href="https://www.flickr.com/photos/198201700@N02/albums" className="link">
+          For all photos, see our gallery
+          <a href="https://www.flickr.com/photos/198201700@N02/albums" target="_blank" className="link">
             here.
           </a>
         </div>
@@ -32,7 +32,7 @@ const PastEvents = () => {
         </div>
         <div className="cny-past-events-text">
           For more photos, see the official album
-          <a href="https://www.flickr.com/photos/svvsd/albums/72177720305882230" className="link">
+          <a href="https://www.flickr.com/photos/svvsd/albums/72177720305882230" target="_blank" className="link">
             here.
           </a>
         </div>

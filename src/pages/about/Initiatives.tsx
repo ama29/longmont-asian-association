@@ -48,7 +48,7 @@ const Initiatives = () => {
             Partnerships
           </div>
           <div className="initiative-subsection-text">
-            A-PAL continues to cultivate partnerships with the St. Vrain Valley School District, Silver Creek Leadership Academy, Front Range Community College, Confucius Institute at Community College in Denver, the Boulder Asian Pacific Alliance, the City of Longmont and many private businesses, non-profits, and individuals in order to promote multiculturalism and educate the community.
+            A-PAL continues to cultivate partnerships with the St. Vrain Valley School District, Silver Creek Leadership Academy, Front Range Community College, the City of Longmont, and many private businesses, non-profits, and individuals in order to promote multiculturalism and educate the community.
           </div>
         </div>
       </div>

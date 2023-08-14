@@ -64,13 +64,13 @@ const BoardOfDirectors = () => {
       <div className="bod-right-flexbox">
         <div className="bod-right-profile">
           <div className="bod-title">
-            Yan Jin, Hospitality Coordinator
+            Yonghong (Lily) Pan, Publicity
           </div>
           <div className="bod-text-right">
-            Yan was born in China, where she lived in both Beijing and Shanghai. She received her bachelor’s degree in Interior & Architecture design from Washington State University. She is currently working for the City of Longmont in the GIS group. In addition to volunteering for the Asian-Pacific Association of Longmont, she is also a member of the Longmont Multicultural Action
+            Yonghong (Lily) Pan was born in Zhejiang Province, China.  She got her bachelor’s degree in Economics in China and worked in Hangzhou, Zhejiang for three years.  Yonghong lived in Japan for three years before moving to Colorado in 1996. Volunteering gives Yonghong a great way to connect with people and support her community. She has been volunteering for the Asian-Pacific Association of  Longmont since its inception in 2010.  She has also volunteered for the Boulder Dance Coalition International Festival and Asian Festival for the past ten years. When she is not volunteering, Yonghong teaches dance and Chinese and writes newspaper articles.
           </div>
         </div>
-        <img src={YanJin} className="bod-image-right" alt="YanJin" />
+        <img src={LilyPan} className="bod-image-right" alt="LilyPan" />
       </div>
       <div className="bod-left-flexbox">
         <img src={NaCheng} className="bod-image-left" alt="Na Chen" />
@@ -94,13 +94,13 @@ const BoardOfDirectors = () => {
       <div className="bod-right-flexbox">
         <div className="bod-right-profile">
           <div className="bod-title">
-            Yonghong (Lily) Pan, Publicity
+            Yan Jin, Hospitality Coordinator
           </div>
           <div className="bod-text-right">
-            Yonghong (Lily) Pan was born in Zhejiang Province, China.  She got her bachelor’s degree in Economics in China and worked in Hangzhou, Zhejiang for three years.  Yonghong lived in Japan for three years before moving to Colorado in 1996. Volunteering gives Yonghong a great way to connect with people and support her community. She has been volunteering for the Asian-Pacific Association of  Longmont since its inception in 2010.  She has also volunteered for the Boulder Dance Coalition International Festival and Asian Festival for the past ten years. When she is not volunteering, Yonghong teaches dance and Chinese and writes newspaper articles.
+            Yan was born in China, where she lived in both Beijing and Shanghai. She received her bachelor’s degree in Interior & Architecture design from Washington State University. She is currently working for the City of Longmont in the GIS group. In addition to volunteering for the Asian-Pacific Association of Longmont, she is also a member of the Longmont Multicultural Action
           </div>
         </div>
-        <img src={LilyPan} className="bod-image-right" alt="LilyPan" />
+        <img src={YanJin} className="bod-image-right" alt="YanJin" />
       </div>
       <div className="bod-left-flexbox">
         <img src={LucyLu} className="bod-image-left" alt="LucyLu" />
@@ -119,7 +119,7 @@ const BoardOfDirectors = () => {
             Carrie Adams, Silver Creek Leadership Academy Partner
           </div>
           <div className="bod-text-right">
-          Carrie Adams was raised in Boulder Colorado and has been the  Program Director for the Silver Creek Leadership Academy (SCLA) since its inception in 2009.  Carrie is passionate about helping young people engage in the community, and understand other cultures as they improve their leadership skills.  This passion led to connecting A-Pal and SCLA to partner allowing students to volunteer at A-Pal events and create meaningful connections to the Asian Culture.
+            Carrie Adams was raised in Boulder Colorado and has been the  Program Director for the Silver Creek Leadership Academy (SCLA) since its inception in 2009.  Carrie is passionate about helping young people engage in the community, and understand other cultures as they improve their leadership skills.  This passion led to connecting A-Pal and SCLA to partner allowing students to volunteer at A-Pal events and create meaningful connections to the Asian Culture.
           </div>
         </div>
         <img src={CarrieAdams} className="bod-image-right" alt="CarrieAdams" />

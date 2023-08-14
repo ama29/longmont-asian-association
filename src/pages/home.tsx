@@ -17,7 +17,7 @@ const Home = () => {
           Recent Activity
         </div>
         <div className="home-subsection-title">
-          <a href="https://www.flickr.com/photos/svvsd/albums/72177720305882230"> See the official album here
+          <a href="https://www.flickr.com/photos/svvsd/albums/72177720305882230" target="_blank"> See the official album here
             <span> &#8594;</span>
           </a>
         </div>

@@ -10,7 +10,7 @@ const CulturalOutreach = () => {
         Cultural Outreach
       </div>
       <div className="outreach-subtitle">
-        Our cultural outreach program introduces Asian culture to more than 1,500 community members annually from over 90 different cultural backgrounds. This program aims to create cultural connections, foster curiosity, celebrate diversity, and open dialogues with schools and other members of our community.      </div>
+        Our cultural outreach program introduces Asian culture to the participants. This program aims to create cultural connections, foster curiosity, celebrate diversity, and open dialogues with students and other community members.        </div>
       <div className="outreach-container">
         <div className="outreach-subcontainer">
           <FontAwesomeIcon icon={faPaintBrush} className="paintbrush-icon" />
@@ -27,7 +27,7 @@ const CulturalOutreach = () => {
           </div>
           <div className="outreach-subcontainer-text">
             We reach out to local schools, businesses and nonprofit organizations to increase our visibility and broaden our scope of cultural engagement.
-            We also foster a mentoring program with the Silver Creek Leadership Academy. President and founder Rita Liu personally mentors students in leadership and management, with the annual Chinese New Year event serving as the students’ capstone project.
+            We also foster a mentoring program with the Silver Creek Leadership Academy. President and founder Rita Liu personally mentors students in leadership and management, with the annual Lunar New Year event serving as the students’ capstone project.
           </div>
         </div>
       </div>
